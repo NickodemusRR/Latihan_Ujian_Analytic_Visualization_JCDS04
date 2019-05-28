@@ -4,10 +4,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # buat dataframe dengan membaca file csv
-df_bcg = pd.read_csv('./Balita Terimunisasi BCG 1995-2017.csv', na_values='n.a')
-df_campak = pd.read_csv('./Balita Terimunisasi Campak 1995-2017.csv', na_values='n.a')
-df_dpt = pd.read_csv('./Balita Terimunisasi DPT 1995-2017.csv', na_values='n.a')
-df_polio = pd.read_csv('./Balita Terimunisasi Polio 1995-2017.csv', na_values='n.a')
+df_bcg = pd.read_csv('Dataset/Balita Terimunisasi BCG 1995-2017.csv', na_values='n.a')
+df_campak = pd.read_csv('Dataset/Balita Terimunisasi Campak 1995-2017.csv', na_values='n.a')
+df_dpt = pd.read_csv('Dataset/Balita Terimunisasi DPT 1995-2017.csv', na_values='n.a')
+df_polio = pd.read_csv('Dataset/Balita Terimunisasi Polio 1995-2017.csv', na_values='n.a')
 
 # interpolasi data yang tidak ada dengan method .interpolate()
 # menghitung jumlah balita yang belum mendapat imunisasi
